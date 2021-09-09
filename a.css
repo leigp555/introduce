@@ -1,0 +1,19 @@
+@media(max-width:500px){
+    .a{
+       height:20vh;
+    
+        position: fixed;
+        width: 100%;
+    }
+    #sec{
+        position: absolute;
+        top:20px;
+        right: 10px;
+        width: 100px;
+        height: 100px;
+    }
+    #sec::after,#sec::before{
+        width: 50px;
+        height: 50px;
+    }
+}
